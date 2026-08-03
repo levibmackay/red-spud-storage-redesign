@@ -2,7 +2,7 @@ import { motion } from "framer-motion";
 
 export default function Promo() {
   return (
-    <section className="bg-ink py-12 sm:py-16">
+    <section className="bg-ink pt-10 pb-10 sm:pt-14 sm:pb-14">
       <div className="mx-auto max-w-3xl px-5 sm:px-8">
         <motion.div
           initial={{ opacity: 0, y: 14 }}
@@ -25,7 +25,7 @@ export default function Promo() {
           </div>
           <a
             href="#pricing"
-            className="shrink-0 rounded-sm bg-russet px-6 py-3 font-display text-xs tracking-wider text-oat hover:bg-russet-deep transition-colors"
+            className="inline-flex min-h-11 shrink-0 items-center rounded-sm bg-russet px-6 py-3 font-display text-xs tracking-wider text-oat hover:bg-russet-deep transition-colors"
           >
             SEE SIZES
           </a>

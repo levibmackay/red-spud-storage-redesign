@@ -3,7 +3,26 @@ import SpudMark from "./SpudMark";
 
 export default function Hero() {
   return (
-    <section id="top" className="bg-grain relative overflow-hidden bg-oat pt-14 pb-20 sm:pt-20 sm:pb-28">
+    <section id="top" className="bg-grain relative overflow-hidden bg-oat pt-14 pb-14 sm:pt-20 sm:pb-20">
+      {/* faint diagonal furrow-line texture, evoking plowed field rows */}
+      <svg
+        className="pointer-events-none absolute inset-0 h-full w-full text-ink/[0.04]"
+        aria-hidden="true"
+      >
+        <defs>
+          <pattern
+            id="hero-furrows"
+            width="28"
+            height="28"
+            patternUnits="userSpaceOnUse"
+            patternTransform="rotate(28)"
+          >
+            <line x1="0" y1="0" x2="0" y2="28" stroke="currentColor" strokeWidth="2" />
+          </pattern>
+        </defs>
+        <rect width="100%" height="100%" fill="url(#hero-furrows)" />
+      </svg>
+
       {/* faint oversized spud mark, decorative, bleeding off the edge */}
       <SpudMark
         className="pointer-events-none absolute -right-16 -top-10 h-72 w-72 text-ink/[0.04] sm:h-96 sm:w-96"
@@ -24,7 +43,7 @@ export default function Hero() {
           initial={{ opacity: 0, y: 14 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.6, delay: 0.05 }}
-          className="font-display text-[2.6rem] leading-[0.95] tracking-tight text-ink sm:text-6xl md:text-7xl"
+          className="font-display text-[clamp(2.6rem,1.4rem+6vw,4.5rem)] leading-[0.95] tracking-tight text-ink"
         >
           STORAGE THAT
           <br />

@@ -42,7 +42,7 @@ const fits = [
 
 export default function Pricing() {
   return (
-    <section id="pricing" className="bg-oat py-16 sm:py-24">
+    <section id="pricing" className="bg-oat pt-12 pb-12 sm:pt-20 sm:pb-20">
       <div className="mx-auto max-w-5xl px-5 sm:px-8">
         <motion.div
           initial={{ opacity: 0, y: 16 }}
@@ -51,7 +51,7 @@ export default function Pricing() {
           transition={{ duration: 0.6 }}
           className="text-center"
         >
-          <h2 className="font-display text-3xl tracking-tight text-ink sm:text-5xl">
+          <h2 className="font-display text-[clamp(2rem,1.2rem+4vw,3.5rem)] tracking-tight text-ink">
             UNIT SIZES &amp; PRICING
           </h2>
           <p className="mx-auto mt-4 max-w-lg font-body text-sm text-ink/70 sm:text-base">

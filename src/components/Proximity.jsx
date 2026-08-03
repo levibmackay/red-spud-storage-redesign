@@ -2,7 +2,7 @@ import { motion } from "framer-motion";
 
 export default function Proximity() {
   return (
-    <section className="bg-ink py-16 text-oat sm:py-24">
+    <section id="location" className="bg-ink pt-12 pb-12 text-oat sm:pt-20 sm:pb-20">
       <div className="mx-auto max-w-5xl px-5 sm:px-8">
         <motion.div
           initial={{ opacity: 0, y: 16 }}
@@ -11,7 +11,7 @@ export default function Proximity() {
           transition={{ duration: 0.6 }}
           className="text-center"
         >
-          <h2 className="font-display text-3xl tracking-tight sm:text-5xl">
+          <h2 className="font-display text-[clamp(2rem,1.2rem+4vw,3.5rem)] tracking-tight">
             RIGHT OFF US-20
           </h2>
           <p className="mx-auto mt-4 max-w-xl font-body text-sm text-oat/70 sm:text-base">

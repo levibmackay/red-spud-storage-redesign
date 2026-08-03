@@ -92,3 +92,9 @@ body {
   background: var(--color-russet);
   color: var(--color-oat);
 }
+
+/* Visible, on-brand keyboard focus ring for every interactive element. */
+:focus-visible {
+  outline: 2px solid var(--color-wheat);
+  outline-offset: 2px;
+}

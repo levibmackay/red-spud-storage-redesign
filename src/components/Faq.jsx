@@ -83,14 +83,14 @@ export default function Faq() {
   const [openIndex, setOpenIndex] = useState(0);
 
   return (
-    <section className="bg-oat py-16 sm:py-24">
+    <section id="faq" className="bg-oat pt-12 pb-16 sm:pt-20 sm:pb-24">
       <div className="mx-auto max-w-3xl px-5 sm:px-8">
         <motion.h2
           initial={{ opacity: 0, y: 16 }}
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true, margin: "-80px" }}
           transition={{ duration: 0.6 }}
-          className="text-center font-display text-3xl tracking-tight text-ink sm:text-5xl"
+          className="text-center font-display text-[clamp(2rem,1.2rem+4vw,3.5rem)] tracking-tight text-ink"
         >
           QUESTIONS, ANSWERED
         </motion.h2>

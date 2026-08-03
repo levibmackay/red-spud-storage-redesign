@@ -61,7 +61,7 @@ export default function Footer() {
           </p>
           <a
             href="#pricing"
-            className="rounded-sm bg-russet px-5 py-2.5 font-display text-xs tracking-wider text-oat hover:bg-russet-deep transition-colors"
+            className="inline-flex min-h-11 items-center rounded-sm bg-russet px-5 py-2.5 font-display text-xs tracking-wider text-oat hover:bg-russet-deep transition-colors"
           >
             RESERVE A UNIT
           </a>

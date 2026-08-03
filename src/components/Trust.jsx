@@ -3,7 +3,7 @@ import PostDivider from "./PostDivider";
 
 export default function Trust() {
   return (
-    <section className="bg-ink py-16 text-oat sm:py-24">
+    <section className="bg-ink pt-12 pb-12 text-oat sm:pt-20 sm:pb-20">
       <div className="mx-auto max-w-5xl px-5 sm:px-8">
         <motion.div
           initial={{ opacity: 0, y: 16 }}
