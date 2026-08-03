@@ -26,11 +26,11 @@ export default function Hero() {
           transition={{ duration: 0.6, delay: 0.05 }}
           className="font-display text-[2.6rem] leading-[0.95] tracking-tight text-ink sm:text-6xl md:text-7xl"
         >
-          STORAGE THAT SHAKES
+          STORAGE THAT
           <br />
-          YOUR HAND, NOT
+          SHAKES YOUR HAND,
           <br />
-          A CALL CENTER
+          NOT A CALL CENTER
         </motion.h1>
 
         <motion.p
