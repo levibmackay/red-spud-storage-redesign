@@ -33,7 +33,7 @@ export default function Footer() {
               <a href="tel:12086563436" className="text-oat/85 hover:text-oat underline decoration-wheat/40 underline-offset-4">
                 (208) 656-3436
               </a>
-              <a href="mailto:redspudstorage@gmail.com" className="text-oat/85 hover:text-oat underline decoration-wheat/40 underline-offset-4">
+              <a href="mailto:redspudstorage@gmail.com" className="break-words text-oat/85 hover:text-oat underline decoration-wheat/40 underline-offset-4">
                 redspudstorage@gmail.com
               </a>
             </div>
